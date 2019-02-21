@@ -16,7 +16,8 @@
 
 ## 历史版本
 
-[v1.6.2](https://github.com/opsnull/follow-me-install-kubernetes-cluster/tree/v1.6.2)
++ [v1.6.2](https://github.com/opsnull/follow-me-install-kubernetes-cluster/tree/v1.6.2)：已停止更新；
++ [v1.8.x](https://github.com/opsnull/follow-me-install-kubernetes-cluster/tree/v1.8.x)：继续更新；
 
 ## 步骤列表
 
@@ -26,10 +27,11 @@
 1. [03.部署kubectl命令行工具](03.部署kubectl命令行工具.md)			
 1. [04.部署etcd集群](04.部署etcd集群.md)				
 1. [05.部署flannel网络](05.部署flannel网络.md)			
-1. [06.部署master节点](06-0.部署master节点.md)				
-    1. [06-1.api-server](06-1.api-server.md)	
-    1. [06-2.controller-manager集群](06-2.controller-manager集群.md)
-    1. [06-3.scheduler集群](06-3.scheduler集群.md)		
+1. [06.部署master节点](06-0.部署master节点.md)
+    1. [06-1.ha.md](06-1.ha.md)
+    1. [06-2.api-server](06-2.api-server.md)	
+    1. [06-3.controller-manager集群](06-3.controller-manager集群.md)
+    1. [06-4.scheduler集群](06-4.scheduler集群.md)		
 1. [07.部署worker节点](07-0.部署worker节点.md)
     1. [07-1.docker](07-1.docker.md)					
     1. [07-2.kubelet](07-2.kubelet.md)				
@@ -45,6 +47,7 @@
 1. [11.部署Harbor-Registry](11.部署Harbor-Registry.md)	
 1. [12.清理集群](12.清理集群.md)
 1. [A.浏览器访问apiserver安全端口](A.浏览器访问kube-apiserver安全端口.md)
+1. [B.校验TLS证书](B.校验TLS证书.md)
 
 ## 在线阅读
 
